@@ -1,0 +1,16 @@
+# Photos stay out of GitHub
+photos/
+review_before_deleting/
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.heic
+
+# Compiled programs and Python clutter
+hello
+vadd
+gray
+*.o
+__pycache__/
+.ipynb_checkpoints/
