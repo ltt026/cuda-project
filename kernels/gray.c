@@ -15,9 +15,9 @@ int main(void){
             int i = y*2 + x;
             int r = rgb[3*i], g = rgb[3*i + 1], b = rgb[3*i + 2];
             gray[i] = (unsigned char)((77*r + 150*g + 29*b) >> 8);
-            priintf("%4d", gray[i]);
+            printf("%4d", gray[i]);
         }
-        printf("\n")
+        printf("\n");
     }
     free (rgb);
     free (gray);
