@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-int main void(){
+int main(void){
     int w = 4;
     int h = 3;
     unsigned char *rgb = (unsigned char *)malloc(w * h * 3);
