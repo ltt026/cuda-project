@@ -15,4 +15,4 @@ CUDA.
 
 the problem is, I'm highly incompetent.
 
-Let's see how this unfolds. 
+current progress: learning how to write CUDA kernels by hand
