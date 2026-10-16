@@ -19,6 +19,7 @@ int main(void){
         }
         printf("\n");
     }
+    if (!rgb || !gray) { free(rgb); free(gray); return 1; }
     free (rgb);
     free (gray);
     return 0;
